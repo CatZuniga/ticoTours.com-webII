@@ -1,0 +1,783 @@
+.navbar .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #ffd412;
+    cursor: pointer;
+
+}
+
+.nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: darkblue;
+    font-size: 18px;
+
+}
+
+.navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+    border-color: yellow;
+
+}
+
+.navbar-toggle .icon-bar {
+
+    background: yellow;
+}
+
+
+.jumbotron h1:hover {
+    -webkit-transform: perspective(8em) rotateX(11deg) scale(1.2);
+    -moz-transform: perspective(8em) rotateX(11deg) scale(1.2);
+    -ms-transform: perspective(8em) rotateX(11deg) scale(1.2);
+    -o-transform: perspective(8em) rotateX(11deg) scale(1.2);
+    transform: perspective(8em) rotateX(11deg) scale(1.2);
+    text-shadow: 1px 1px #35d3b3;
+
+}
+
+.jumbotron .logo {
+
+    margin-top: 5%;
+    text-decoration: none;
+    -webkit-transform: perspective(2.5em) rotateX(15deg) scaleY(0.8);
+    -moz-transform: perspective(2.5em) rotateX(15deg) scaleY(0.8);
+    -ms-transform: perspective(2.5em) rotateX(15deg) scaleY(0.8);
+    -o-transform: perspective(2.5em) rotateX(15deg) scaleY(0.8);
+    transform: perspective(2.5em) rotateX(15deg) scaleY(0.8);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    display: inline-block;
+    text-align: center;
+    font-size: 115px;
+    font-weight: 700;
+    font-family: 'Playball', cursive;
+    line-height: 0.8;
+    color: darkcyan;
+    text-shadow: 1px 4px #fff;
+
+}
+
+.jumboText a {
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Judson', serif;
+    font-weight: 00;
+}
+
+#btnSearchRide {
+    background: transparent;
+    border: 3px #e5cb0e solid;
+    color: #e5cb0e;
+    padding-left: 45px;
+    padding-right: 45px;
+
+}
+
+#btnLogin {
+    background: rgba(170, 183, 184, 0.4);
+    border: 3px white solid;
+    color: white;
+    margin-left: 3%;
+
+}
+
+#btnSearchRide:hover {
+    background: rgba(229, 203, 14, 0.8);
+    color: white;
+    text-decoration: none;
+}
+
+#btnLogin:hover {
+    background: rgba(229, 203, 14, 0.8);
+    border: rgba(229, 203, 14, 0.8);
+    text-decoration: none;
+}
+
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus {
+    outline: none;
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* FlexSlider Necessary Styles
+*********************************/
+
+.flexslider {
+    margin: 0;
+    padding: 0;
+}
+
+.flexslider .slides > li {
+    display: none;
+    -webkit-backface-visibility: hidden;
+}
+
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+
+.flexslider .slides img {
+    width: 100%;
+    display: block;
+}
+
+.flex-pauseplay span {
+    text-transform: capitalize;
+}
+
+/* Clearfix for the .slides element */
+
+.slides:after {
+    content: "\0020";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+html[xmlns] .slides {
+    display: block;
+}
+
+* html .slides {
+    height: 1%;
+}
+
+/* No JavaScript Fallback */
+
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+
+.no-js .slides > li:first-child {
+    display: block;
+}
+
+/* FlexSlider Default Theme
+*********************************/
+
+.flexslider {
+    margin: 0 0 60px;
+}
+
+.flex-viewport {
+    max-height: 2000px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.loading .flex-viewport {
+    max-height: 300px;
+}
+
+.flexslider .slides {
+    zoom: 1;
+}
+
+.carousel li {
+    margin-right: 5px;
+}
+
+/* Direction Nav */
+
+.flex-direction-nav {
+    *height: 0;
+}
+
+.flex-direction-nav a {
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: -20px 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.flex-direction-nav .flex-prev {
+    left: -50px;
+}
+
+.flex-direction-nav .flex-next {
+    right: -50px;
+    text-align: right;
+}
+
+.flexslider:hover .flex-prev {
+    opacity: 0.7;
+    left: 10px;
+}
+
+.flexslider:hover .flex-next {
+    opacity: 0.7;
+    right: 10px;
+}
+
+.flexslider:hover .flex-next:hover,
+.flexslider:hover .flex-prev:hover {
+    opacity: 1;
+}
+
+.flex-direction-nav .flex-disabled {
+    opacity: 0!important;
+    filter: alpha(opacity=0);
+    cursor: default;
+}
+
+.flex-direction-nav a:before {
+    font-family: "flexslider-icon";
+    font-size: 40px;
+    display: inline-block;
+    content: '\f001';
+}
+
+.flex-direction-nav a.flex-next:before {
+    content: '\f002';
+}
+
+/* Pause/Play */
+
+.flex-pauseplay a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    opacity: 0.8;
+    z-index: 10;
+    overflow: hidden;
+    cursor: pointer;
+    color: #000;
+}
+
+.flex-pauseplay a:before {
+    font-family: "flexslider-icon";
+    font-size: 20px;
+    display: inline-block;
+    content: '\f004';
+}
+
+.flex-pauseplay a:hover {
+    opacity: 1;
+}
+
+.flex-pauseplay a.flex-play:before {
+    content: '\f003';
+}
+
+/* Control Nav */
+
+.flex-control-nav {
+    width: 100%;
+    position: relative;
+    bottom: -40px;
+    text-align: center;
+}
+
+.flex-control-nav li {
+    margin: 0 6px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+.flex-control-paging li a {
+    width: 11px;
+    height: 11px;
+    display: block;
+    background: #bbb;
+    cursor: pointer;
+    text-indent: -9999px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.flex-control-paging li a:hover {
+    background: #333;
+    background: #999;
+}
+
+.flex-control-paging li a.flex-active {
+    background: #44A08D;
+    cursor: default;
+}
+
+.flex-control-thumbs {
+    margin: 5px 0 0;
+    position: static;
+    overflow: hidden;
+}
+
+.flex-control-thumbs li {
+    width: 25%;
+    float: left;
+    margin: 0;
+}
+
+.flex-control-thumbs img {
+    width: 100%;
+    display: block;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.flex-control-thumbs img:hover {
+    opacity: 1;
+}
+
+.flex-control-thumbs .flex-active {
+    opacity: 1;
+    cursor: default;
+}
+
+@media screen and (max-width: 860px) {
+    .flex-direction-nav .flex-prev {
+        opacity: 1;
+        left: 10px;
+    }
+    .flex-direction-nav .flex-next {
+        opacity: 1;
+        right: 10px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 766px) {
+    .collapsing,
+    .in {
+        background: rgba(170, 183, 184, 0.6);
+    }
+    .collapsing ul li a,
+    .in ul li a {
+        color: #555!important;
+    }
+    .collapsing ul li a:hover,
+    .in ul li a:hover {
+        color: #f1f1f1!important;
+    }
+    .jumbotron .logo {
+        font-size: 48px;
+
+    }
+    .jumbotron h2 {
+        font-size: 30px;
+    }
+    .jumboText a {
+
+        padding: 10px;
+        font-size: 12px;
+
+    }
+    .jumboText {
+        margin-top: 30%;
+    }
+
+
+    footer {
+        font-size: 6px
+    }
+    footer h4 {
+        font-size: 14px
+    }
+    footer img {
+        width: 10%;
+    }
+}
+
+
+body {
+    color: #555555;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/**********************************************************************/
+
+/************************** COMMON ELEMENTS **************************/
+
+/********************************************************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333333;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+
+a:focus {
+    outline: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: none;
+}
+
+/** Custom styles **/
+
+.vis-hidden {
+    visibility: hidden !important;
+}
+
+a {
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+
+}
+
+h2.sectionTitle {
+    color: #428BCA;
+    font-size: 50px;
+    margin-top: 0;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-family: 'Judson', serif;
+}
+
+h3.sectionTitle {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -20px;
+
+}
+
+.altWrap {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background-color: #f7f7f7;
+}
+
+
+.jumbotron {
+    background: url(../images/hitch-hiking.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 0;
+    padding-top: 140px;
+    color: #fff;
+    margin-bottom: 0;
+    height: 519px;
+    text-align: center;
+}
+
+
+.jumbotron h2 {
+    color: #fff;
+    font-weight: 300;
+    text-shadow: 0 1px 5px #222222;
+    margin-bottom: 30px;
+    font-family: 'Judson', serif;
+    font-size: 86px;
+    color: #fff;
+
+}
+
+/**********************************************************************/
+
+/************************** WHAT WE DO *******************************/
+
+/********************************************************************/
+
+#featureWrap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+/**********************************************************************/
+
+/************************ PRODUCT ************************************/
+
+/********************************************************************/
+
+#productWrap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+#productWrap p {
+    text-align: justify;
+}
+
+#productWrap .productFeatures {
+    margin-top: 20px;
+}
+
+#productWrap h2 {
+
+    color: #44A08D;
+}
+
+#productWrap .productFeatures h3 {
+    margin-top: 0;
+    color: #44A08D;
+}
+
+#productWrap .productFeatures p {
+    margin-bottom: 50px;
+}
+
+#productWrap .productFeatures .icon {
+    text-align: right;
+    color: #44A08D;
+    ;
+    font-size: 20px;
+}
+
+
+
+/**********************************************************************/
+
+/************************ TESTIMONIALS *******************************/
+
+/********************************************************************/
+
+#testimonialsWrap {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: white;
+}
+
+#testimonialsWrap i {
+    font-size: 600%;
+    color: #44A08D;
+}
+
+#testimonialsWrap .slides {
+    text-align: center;
+}
+
+#testimonialsWrap .quote {
+    color: #777777;
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+#testimonialsWrap h2 {
+    color: #444;
+}
+
+#testimonialsWrap .author {
+    color: #44A08D;
+    font-size: 20px;
+}
+
+
+.flexslider .slides .active {
+    fill: #f90;
+    stroke: red;
+    color: blue;
+    background-color: red;
+}
+
+/**********************************************************************/
+
+/************************ CONTACT ************************************/
+
+/********************************************************************/
+
+#contactWrap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#contactWrap .overlay {
+    background: url("../assets/img/60.png");
+    padding-bottom: 60px;
+}
+
+#contactWrap h2.sectionTitle {
+    border-bottom: 1px solid #fff;
+}
+
+#contactWrap .blurb {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+#contactWrap label {}
+
+#contactWrap .form-control {
+    border: 1px solid #c5c5c5;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 0 10px;
+    padding: 8px 5px;
+    width: 100%;
+    border-radius: 0;
+    color: #555;
+    box-shadow: none;
+}
+
+#contactWrap .form-control:focus {
+    border-color: #aaa;
+    box-shadow: none;
+}
+
+#contactWrap textarea.form-control {
+    margin: 0 0 10px;
+    max-height: 300px;
+    max-width: 100%;
+    width: 100%;
+    min-height: 120px;
+}
+
+#contactWrap button.btn {
+    margin-top: 15px;
+    width: 100%;
+}
+
+/**********************************************************************/
+
+/************************* FOOTER ************************************/
+
+/********************************************************************/
+
+footer {
+    background: #444;
+    padding: 40px 0;
+}
+
+footer p {
+    color: #ddd;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+    font-size: 16px;
+}
+
+footer .social {
+    margin: 0;
+}
+
+footer .social a {
+    color: #DDDDDD;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    color: #fff;
+}
+
+footer .social a .fa-inverse {
+    color: #444;
+}
+
+/**********************************************************************/
+
+/****************** MEDIA QUERIES ************************************/
+
+/********************************************************************/
+
+@media(max-width:1200px) {
+    .jumbotron .mobile {
+        margin-left: -164px;
+    }
+}
+
+@media(max-width:979px) {
+    .navbar-collapse {
+        float: right;
+    }
+
+    .jumbotron {
+        padding-top: 100px;
+    }
+    .jumbotron .jumboText {
+        text-align: center;
+    }
+    .jumbotron h1 {
+        font-size: 64px;
+    }
+    .jumbotron .actionBtn {
+        margin-bottom: 50px;
+    }
+    .jumbotron .mobile {
+        margin-left: -48px;
+    }
+    #productWrap .imgWrap img {
+        margin: 0 auto 60px;
+    }
+    #contactWrap .blurb {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        float: none;
+    }
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        float: left;
+        margin: 15px 0 15px 15px;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+    .jumbotron {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .jumbotron h1 {
+        font-size: 48px;
+    }
+    .jumbotron h2 {
+        font-size: 22px;
+    }
+
+    #featureWrap .feature {
+        margin-bottom: 40px;
+    }
+    #productWrap .productFeatures .icon {
+        font-size: 14px;
+    }
+    #pricingWrap .priceTable {
+        margin-bottom: 60px;
+    }
+}

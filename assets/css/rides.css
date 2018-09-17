@@ -1,0 +1,55 @@
+.form-control{
+    max-width: 250px;
+   background-color: rgba(  14, 111, 91 , 0.1);
+    
+}
+.vertical{
+height: 130%;
+}
+
+.view{
+    margin-top: 2%;
+    
+}
+
+
+/*Checkboxes styles*/
+.boxes {
+  
+margin: 0.5%;
+	max-width: 50%;
+}
+
+/*Checkboxes styles*/
+input[type="checkbox"]:checked + label:before {
+  width: 4px;
+  left: 5px;
+  border-radius: 0;
+  opacity: 1;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.weekDays-selector input {
+  display: none!important;
+}
+
+.weekDays-selector input[type=checkbox] + label {
+  display: inline-block;
+  border-radius: 6px;
+  background: #dddddd;
+  height: 40px;
+  width: 30px;
+  margin-right: 3px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.weekDays-selector input[type=checkbox]:checked + label {
+  background: rgb(15, 107, 87);
+  color: #ffffff;
+}
+

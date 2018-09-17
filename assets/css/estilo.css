@@ -1,0 +1,156 @@
+body {}
+
+.titulo {
+
+    position: absolute;
+
+    /*
+    background-image: url(Imagen4.png);   
+     background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+        */
+}
+
+
+.search {
+    
+    background-color: #283747;
+    margin-top: 10%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.find {
+   /* background-color: #dee8e6;
+*/
+}
+
+.vertical {
+    position: absolute;
+    height: 100%;
+    background-color: rgba( 247, 210, 6, 0.7);
+    margin-left: 5%;
+    margin-top: -1.6%;
+    text-align: center;
+    
+}
+.vertical label, .vertical a{
+    font-size: 20px;
+     font-family: 'Playball', cursive;
+     
+}
+
+.profile{
+    margin-top: 3%;
+}
+
+h1,
+h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 180%;
+}
+
+.titulo p {
+    font-size: 180%;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 20%;
+    color: #263c4c;
+}
+
+.vertical h3 {
+    font-size: 400%;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+}
+
+.vertical p {
+    font-size: 180%;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+.title{
+  background-color: #283747;  
+}
+.myrides{
+     background-color: #dee8e6; 
+    padding: 3%;
+}
+.title h3{
+     
+    padding: 3%;
+}
+.x{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 766px) {
+    .titulo p {
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    .navbar-brand > img {
+        width: 60px;
+        height: 55px;
+        margin-top: -3%;
+    }
+
+    .navbar-brand {
+
+        font-size: 200%;
+
+
+    }
+    .slidemenu li{
+      font-size: 10px;
+
+    }
+
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+   .vertical p {
+        font-size: 18px;
+    }
+    .vertical h3 {
+        font-size: 180%;
+    }
+    .navbar-brand > img {
+        width: 80px;
+        height: 70px;
+          margin-top: -4%;
+    }
+    .navbar-brand {
+        font-size: 47px;
+    }
+    .titulo {
+        margin-top: -3%;
+        font-size: 13px;
+    }
+   
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+    .vertical p {
+        font-size: 12px;
+    }
+    .vertical h3 {
+        font-size: 150%;
+    }
+    .navbar-brand > img {
+        width: 70px;
+        height: 60px;
+    }
+    .navbar-brand {
+        font-size: 18px;
+        
+    }
+    .titulo {
+        margin-top: -5%;
+        font-size: 15px;
+    }
+     
+
+
+}
